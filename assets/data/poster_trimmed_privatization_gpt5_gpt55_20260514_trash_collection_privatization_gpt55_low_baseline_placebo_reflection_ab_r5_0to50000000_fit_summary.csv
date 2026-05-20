@@ -1,0 +1,7 @@
+condition,order_scope,probit_fit_status,probit_midpoint_native,probit_midpoint_position,probit_slope,probit_pseudo_r2,kernel_fit_status,kernel_midpoint_native,kernel_midpoint_position,kernel_transition_width_native,kernel_bandwidth_transformed,mean_entropy,probit_order_gap,kernel_order_gap
+baseline,pooled,ok,53116.97905370314,within_range,8.117995378567117e-05,0.821119255015188,ok,,below_range,,8971447.047036428,0.13870722777923836,,
+baseline,AB,ok,53116.97905370314,within_range,8.117995378567117e-05,0.821119255015188,ok,,below_range,,8971447.047036428,0.13870722777923836,,
+placebo,pooled,ok,53187.20154401008,within_range,7.962467351293757e-05,0.8211114273205414,ok,,below_range,,8971447.047036428,0.13870722777923836,,
+placebo,AB,ok,53187.20154401008,within_range,7.962467351293757e-05,0.8211114273205414,ok,,below_range,,8971447.047036428,0.13870722777923836,,
+reflection,pooled,ok,374930.45986699313,within_range,3.834749345260366e-05,0.9999985356734045,ok,19811232.754285123,within_range,,8971447.047036428,0.0,,
+reflection,AB,ok,374930.45986699313,within_range,3.834749345260366e-05,0.9999985356734045,ok,19811232.754285123,within_range,,8971447.047036428,0.0,,

@@ -1,0 +1,3 @@
+condition,order_scope,probit_fit_status,probit_midpoint_native,probit_midpoint_position,probit_slope,probit_pseudo_r2,kernel_fit_status,kernel_midpoint_native,kernel_midpoint_position,kernel_transition_width_native,kernel_bandwidth_transformed,mean_entropy,probit_order_gap,kernel_order_gap
+constitution,pooled,ok,3.587036547837231,within_range,12.742213523312873,0.9999985356734045,ok,3.7559813442871204,within_range,2.6214282740467945,1.595045705819343,0.0,,
+constitution,AB,ok,3.587036547837231,within_range,12.742213523312873,0.9999985356734045,ok,3.7559813442871204,within_range,2.6214282740467945,1.595045705819343,0.0,,

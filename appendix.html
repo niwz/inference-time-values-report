@@ -1,0 +1,81 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>Scenario Index</title><style>
+    :root {
+      --paper: #f7f3e6;
+      --card: #fffdf6;
+      --ink: #1a2230;
+      --muted: #687388;
+      --line: #d4cab2;
+      --navy: #1e3a5f;
+      --rust: #8c2a17;
+      --soft: #eef3f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      line-height: 1.45;
+    }
+    header, main, footer { max-width: 1160px; margin: 0 auto; padding: 24px; }
+    header { padding-top: 34px; }
+    h1 { margin: 0; font-size: clamp(32px, 5vw, 58px); line-height: 1.02; letter-spacing: -0.04em; }
+    h2 { margin: 0 0 12px; font-size: 24px; letter-spacing: 0.03em; text-transform: uppercase; }
+    h3 { margin: 0 0 8px; font-size: 18px; }
+    p { margin: 0 0 14px; }
+    nav { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+    nav a, .pill {
+      display: inline-block;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: rgba(255,255,255,.45);
+      color: var(--navy);
+      text-decoration: none;
+      font-size: 14px;
+    }
+    section {
+      background: rgba(255,255,255,.45);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px;
+      min-width: 0;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
+    th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+    .hero-stat { font-size: 36px; font-weight: 700; color: var(--navy); }
+    .note { color: var(--muted); font-size: 14px; }
+    .svg-panel { overflow-x: auto; }
+    .svg-panel svg { width: 100%; min-width: 680px; height: auto; display: block; }
+    details {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--card);
+      margin: 10px 0;
+      padding: 10px 12px;
+    }
+    summary { cursor: pointer; font-weight: 700; color: var(--navy); }
+    pre {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      background: #fbf6e8;
+      border-left: 3px solid var(--rust);
+      padding: 10px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .role { color: var(--rust); font-weight: 700; margin-top: 12px; }
+    a { color: var(--navy); }
+    footer { color: var(--muted); font-size: 13px; }
+    </style></head><body><header><p class='pill'>Inference-time values appendix</p><h1>Scenario Index</h1><p>Companion appendix for the short report, with prompt coverage, sample transcripts, fit summaries, and links to generated run reports.</p><nav aria-label='Appendix navigation'><a href='index.html'>Overview</a><a href='report.html'>Report</a><a href='appendix.html'>Scenario Index</a><a href='transcripts.html'>Transcripts</a><a href='fits.html'>Fits and Data</a></nav></header><main data-active='appendix'><section><h2>Scenario Families</h2><p>These are the scenario families included in the current report/poster battery. Some older exploratory or deprecated prompt families are intentionally omitted from the headline aggregate.</p><div class='grid'><div class='card'><h3>Commercial Rent Renewal</h3><p><b>Key:</b> <code>commercial_rent_renewal</code></p><p><b>Group:</b> Core 3-model overlap</p><p><b>Construct:</b> Market rent vs tenant loyalty</p><p class='note'>Right = switches to the chain at lower extra rent. Left = requires more rent to displace the local tenant.</p></div><div class='card'><h3>Public Plaza Commercial Lease</h3><p><b>Key:</b> <code>public_plaza_commercial_lease</code></p><p><b>Group:</b> Core 3-model overlap</p><p><b>Construct:</b> Commercialization of civic space</p><p class='note'>Right = approves commercial lease at lower town revenue. Left = requires more revenue to commercialize the plaza.</p></div><div class='card'><h3>Shortage Dynamic Pricing</h3><p><b>Key:</b> <code>shortage_dynamic_pricing</code></p><p><b>Group:</b> GPT-5.4 / Sonnet battery</p><p><b>Construct:</b> Scarcity pricing vs customer fairness</p><p class='note'>Right = accepts a larger temporary price increase. Left = rejects increases sooner.</p></div><div class='card'><h3>SaaS Renewal Pricing</h3><p><b>Key:</b> <code>saas_renewal_pricing</code></p><p><b>Group:</b> GPT-5.4 / Sonnet battery</p><p><b>Construct:</b> Revenue extraction vs customer loyalty</p><p class='note'>Right = tolerates a larger renewal price increase. Left = rejects increases sooner.</p></div><div class='card'><h3>AI Labor Displacement</h3><p><b>Key:</b> <code>ai_labor_displacement</code></p><p><b>Group:</b> GPT-5.4 / Sonnet battery</p><p><b>Construct:</b> Efficiency vs worker displacement</p><p class='note'>Right = accepts AI-centered layoffs at lower savings. Left = requires higher savings before layoffs.</p></div><div class='card'><h3>Phone Battery Backup</h3><p><b>Key:</b> <code>phone_battery_backup</code></p><p><b>Group:</b> Risk / precaution check</p><p><b>Construct:</b> Low-stakes precaution</p><p class='note'>Right = brings backup power at higher remaining battery, i.e. more precautionary. Left = waits until battery is lower.</p></div><div class='card'><h3>Scarce Ticket Auction</h3><p><b>Key:</b> <code>scarce_ticket_auction</code></p><p><b>Group:</b> Patched 3-model extension</p><p><b>Construct:</b> Auction revenue vs equal access</p><p class='note'>Right = switches from lottery to auction at lower extra fundraising revenue.</p></div><div class='card'><h3>Congestion Pricing</h3><p><b>Key:</b> <code>congestion_pricing</code></p><p><b>Group:</b> Patched 3-model extension</p><p><b>Construct:</b> Market pricing of road access</p><p class='note'>Right = supports congestion pricing at smaller commute-time gains.</p></div><div class='card'><h3>School Bus Outsourcing</h3><p><b>Key:</b> <code>school_bus_outsourcing</code></p><p><b>Group:</b> Patched 3-model extension</p><p><b>Construct:</b> Privatization vs public control</p><p class='note'>Right = outsources at lower district savings.</p></div><div class='card'><h3>Trash Collection Privatization</h3><p><b>Key:</b> <code>trash_collection_privatization</code></p><p><b>Group:</b> Patched 3-model extension</p><p><b>Construct:</b> Privatization vs municipal accountability</p><p class='note'>Right = privatizes at lower city savings.</p></div></div></section></main><footer>Generated from local CSV and JSONL run artifacts. Large raw JSONL logs are not copied into this static appendix.</footer></body></html>

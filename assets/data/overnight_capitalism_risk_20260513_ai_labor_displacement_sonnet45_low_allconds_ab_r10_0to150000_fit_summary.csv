@@ -1,0 +1,9 @@
+condition,order_scope,probit_fit_status,probit_midpoint_native,probit_midpoint_position,probit_slope,probit_pseudo_r2,kernel_fit_status,kernel_midpoint_native,kernel_midpoint_position,kernel_transition_width_native,kernel_bandwidth_transformed,mean_entropy,probit_order_gap,kernel_order_gap
+baseline,pooled,ok,,above_range,1.4519206838524396e-05,0.19849285623648594,ok,,above_range,,19034.543436526274,0.3716117170424366,,
+baseline,AB,ok,,above_range,1.4519206838524396e-05,0.19849285623648594,ok,,above_range,,19034.543436526274,0.3716117170424366,,
+placebo,pooled,ok,,above_range,7.2876190039870525e-06,0.06331774405040358,ok,,above_range,,19034.543436526274,0.2736550704441726,,
+placebo,AB,ok,,above_range,7.2876190039870525e-06,0.06331774405040358,ok,,above_range,,19034.543436526274,0.2736550704441726,,
+reflection,pooled,censored_all_zero,,above_range,,,censored_all_zero,,above_range,,,0.0,,
+reflection,AB,censored_all_zero,,above_range,,,censored_all_zero,,above_range,,,0.0,,
+constitution,pooled,censored_all_zero,,above_range,,,censored_all_zero,,above_range,,,0.0,,
+constitution,AB,censored_all_zero,,above_range,,,censored_all_zero,,above_range,,,0.0,,

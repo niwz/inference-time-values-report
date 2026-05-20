@@ -1,0 +1,15 @@
+condition,order_scope,axis_value,display_value,runs,event_rate,entropy
+constitution,AB,0.0,0,5,0.0,0.0
+constitution,AB,100000.0,100000,5,0.0,0.0
+constitution,AB,500000.0,500000,5,0.4,0.9709505944546686
+constitution,AB,1000000.0,1000000,5,1.0,0.0
+constitution,AB,5000000.0,5000000,5,1.0,0.0
+constitution,AB,25000000.0,25000000,5,1.0,0.0
+constitution,AB,100000000.0,100000000,5,1.0,0.0
+constitution,pooled,0.0,0,5,0.0,0.0
+constitution,pooled,100000.0,100000,5,0.0,0.0
+constitution,pooled,500000.0,500000,5,0.4,0.9709505944546686
+constitution,pooled,1000000.0,1000000,5,1.0,0.0
+constitution,pooled,5000000.0,5000000,5,1.0,0.0
+constitution,pooled,25000000.0,25000000,5,1.0,0.0
+constitution,pooled,100000000.0,100000000,5,1.0,0.0
